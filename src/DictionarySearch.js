@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./DictionarySearch.css";
+import axios from "axios";
 
 export default function DictionarySearch() {
 	let [keyword, setKeyword] = useState("");
